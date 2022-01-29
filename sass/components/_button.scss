@@ -1,78 +1,62 @@
-/* ---------------------  Hero--------------------- */
-.hero-btn {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 10px 32px;
+.button {
   font-family: Roboto, sans-serif;
-  font-weight: 700;
   font-size: 16px;
+  font-weight: 700;
   line-height: 1.87;
   letter-spacing: 0.06em;
+
   color: var(--primary-white-color);
   background-color: var(--accent-color);
-  border: none;
-  border-radius: 4px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
-  transition: background-color var(--animation-duration) var(--timing-function);
+  border: none;
+  border-radius: 4px;
 
   cursor: pointer;
 }
 
-.hero-btn:hover,
-.hero-btn:focus {
+/* ---------------------  Hero--------------------- */
+.hero-button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 32px;
+
+  transition: background-color var(--animation-duration) var(--timing-function);
+}
+
+.hero-button:hover,
+.hero-button:focus {
   background-color: var(--accent-color-hover);
 }
 
 /* ---------------------footer--------------------- */
-.footer-form-btn {
+.footer-form-button {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 200px;
   height: 50px;
   margin-left: 12px;
+}
 
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87px;
-  letter-spacing: 0.06em;
-
-  border: none;
-  border-radius: 4px;
-  color: var(--primary-white-color);
-  background-color: var(--accent-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-
-  cursor: pointer;
+.footer-form-button:hover,
+.footer-form-button:focus {
+  background-color: var(--accent-color-hover);
 }
 
 /* ---------------------modal--------------------- */
-.btn-submit {
+.button-submit {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 200px;
   height: 50px;
 
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.06em;
-
-  border: none;
-  border-radius: 4px;
-
-  color: var(--primary-white-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  background-color: var(--accent-color);
   outline-color: transparent;
   transition: outline-color var(--animation-duration) var(--timing-function);
-
-  cursor: pointer;
 }
 
-.btn-submit:focus {
+.button-submit:focus {
   outline-color: var(--accent-color);
 }
