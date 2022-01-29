@@ -1,0 +1,42 @@
+/* --------------------- advantages---------------------*/
+.advantages-box {
+  margin-bottom: var(--card-set-gap);
+  width: 270px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--team-bg-color);
+  border-radius: 4px;
+}
+
+.advantages-icons {
+  width: 70px;
+  height: 70px;
+}
+
+.advantages-list {
+  display: flex;
+}
+
+.advantages-item {
+  width: 270px;
+}
+
+.advantages-item:not(:last-child) {
+  margin-right: var(--card-set-gap);
+}
+
+.advantages-title {
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.advantages-text {
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--primary-text-color);
+}
