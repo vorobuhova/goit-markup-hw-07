@@ -3,13 +3,18 @@
 @import './utils/base';
 @import './utils/visually-hidden';
 
-/* -------Index------- */
-
+/* --------------------- Index---------------------*/
 @import './components/Header';
 @import './components/Hero';
+@import './components/button';
+@import './components/modal';
 @import './components/advantages';
 @import './components/wedo';
 @import './components/team';
+@import './components/socials';
 @import './components/clients';
 @import './components/footer';
+
+/* --------------------- Portpholio---------------------*/
 @import './components/works';
+@import './components/works-btn';

@@ -1,4 +1,4 @@
-/* team */
+/* --------------------- team--------------------- */
 
 .team {
   background-color: var(--team-bg-color);
@@ -46,34 +46,4 @@
   line-height: 1.19;
   color: var(--primary-text-color);
   text-align: center;
-}
-
-.team-social-list {
-  display: flex;
-  justify-content: space-between;
-}
-
-.team-social-link {
-  display: block;
-  border-radius: 50%;
-  width: 44px;
-  height: 44px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: transparent;
-  color: var(--social-links);
-
-  transition: background-color var(--animation-duration) var(--timing-function),
-    color var(--animation-duration) var(--timing-function);
-}
-
-.team-social-link:hover,
-.team-social-link:focus {
-  color: var(--primary-white-color);
-  background-color: var(--accent-color);
-}
-
-.team-icon {
-  fill: currentColor;
 }
