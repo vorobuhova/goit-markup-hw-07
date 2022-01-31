@@ -1,2 +1,1 @@
-# goit-markup-hw-06
-https://vorobuhova.github.io/goit-markup-hw-06/
+# goit-markup-hw-07
