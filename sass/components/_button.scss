@@ -13,6 +13,11 @@
   border-radius: 4px;
 
   cursor: pointer;
+
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color-hover);
+  }
 }
 
 /* ---------------------  Hero--------------------- */
@@ -25,11 +30,6 @@
   transition: background-color var(--animation-duration) var(--timing-function);
 }
 
-.hero-button:hover,
-.hero-button:focus {
-  background-color: var(--accent-color-hover);
-}
-
 /* ---------------------footer--------------------- */
 .footer-form-button {
   display: flex;
@@ -38,11 +38,6 @@
   width: 200px;
   height: 50px;
   margin-left: 12px;
-}
-
-.footer-form-button:hover,
-.footer-form-button:focus {
-  background-color: var(--accent-color-hover);
 }
 
 /* ---------------------modal--------------------- */
@@ -55,8 +50,4 @@
 
   outline-color: transparent;
   transition: outline-color var(--animation-duration) var(--timing-function);
-}
-
-.button-submit:focus {
-  outline-color: var(--accent-color);
 }

@@ -22,12 +22,12 @@
 
   transition: color var(--animation-duration) var(--timing-function),
     border-color var(--animation-duration) var(--timing-function);
-}
 
-.clients-link:hover,
-.clients-link:focus {
-  color: var(--accent-color);
-  border-color: var(--accent-color);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+    border-color: var(--accent-color);
+  }
 }
 
 .clients-logo {

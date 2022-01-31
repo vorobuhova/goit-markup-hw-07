@@ -7,16 +7,15 @@
   display: flex;
 }
 
-.wedo-item:not(:last-child) {
-  margin-right: var(--card-set-gap);
-}
-
 .wedo .title {
   padding-bottom: 50px;
 }
 
 .wedo-item {
   position: relative;
+  &:not(:last-child) {
+    margin-right: var(--card-set-gap);
+  }
 }
 
 .wedo-backdrop {

@@ -1,3 +1,5 @@
+/* --------------------- modal]--------------------- */
+
 .hero-backdrop {
   position: fixed;
 
@@ -60,21 +62,20 @@
   outline-color: transparent;
 
   transition: outline-color var(--animation-duration) var(--timing-function);
-}
 
-.hero-modal-close:hover,
-.hero-modal-close:focus {
-  outline-color: var(--accent-color);
+  &:hover,
+  &:focus {
+    outline-color: var(--accent-color);
+  }
 }
 
 .icon-close {
   fill: #000;
   transition: fill var(--animation-duration) var(--timing-function);
-}
-
-.hero-modal-close:hover .icon-close,
-.hero-modal-close:focus .icon-close {
-  fill: var(--accent-color);
+  .hero-modal-close:hover &,
+  .hero-modal-close:focus & {
+    fill: var(--accent-color);
+  }
 }
 
 .hero-modal-title {
@@ -119,20 +120,11 @@
   outline-color: transparent;
 
   transition: border-color var(--animation-duration) var(--timing-function);
-}
 
-.input-contacts:focus {
-  border-color: var(--accent-color);
-  border-width: 2px;
-}
-
-.input-contacts:focus + .input-contacts-icon {
-  fill: var(--accent-color);
-}
-
-.input-contacts-icon {
-  fill: var(--title-text-color);
-  transition: fill var(--animation-duration) var(--timing-function);
+  &:focus {
+    border-color: var(--accent-color);
+    border-width: 2px;
+  }
 }
 
 .input-form {
@@ -144,6 +136,13 @@
   top: 50%;
   left: 12px;
   transform: translateY(-50%);
+
+  fill: var(--title-text-color);
+  transition: fill var(--animation-duration) var(--timing-function);
+
+  .input-contacts:focus + & {
+    fill: var(--accent-color);
+  }
 }
 
 .textarea {
@@ -163,20 +162,18 @@
   border: 1px solid rgba(33, 33, 33, 0.2);
 
   transition: border-color var(--animation-duration) var(--timing-function);
-}
+  &::placeholder {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.01em;
 
-.form-textarea::placeholder {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.01em;
-
-  color: rgba(117, 117, 117, 0.5);
-}
-
-.form-textarea:focus {
-  border-color: var(--accent-color);
-  border-width: 2px;
+    color: rgba(117, 117, 117, 0.5);
+  }
+  &:focus {
+    border-color: var(--accent-color);
+    border-width: 2px;
+  }
 }
 
 .policy-container {
@@ -204,20 +201,9 @@
   color: var(--accent-color);
   outline-color: transparent;
   transition: outline-color var(--animation-duration) var(--timing-function);
-}
-
-.policy-link:focus {
-  outline-color: var(--accent-color);
-}
-
-.policy-checkbox:checked + .policy-checkbox-castom {
-  fill: var(--primary-white-color);
-  background-color: var(--accent-color);
-  border: transparent;
-}
-
-.policy-checkbox:focus-visible + .policy-checkbox-castom {
-  border: 2px solid var(--accent-color);
+  &:focus {
+    outline-color: var(--accent-color);
+  }
 }
 
 .policy-checkbox-castom {
@@ -233,4 +219,13 @@
   background-color: transparent;
 
   cursor: pointer;
+
+  .policy-checkbox:focus-visible + & {
+    border: 2px solid var(--accent-color);
+  }
+  .policy-checkbox:checked + & {
+    fill: var(--primary-white-color);
+    background-color: var(--accent-color);
+    border: transparent;
+  }
 }

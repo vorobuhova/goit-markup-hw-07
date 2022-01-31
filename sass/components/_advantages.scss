@@ -21,10 +21,10 @@
 
 .advantages-item {
   width: 270px;
-}
 
-.advantages-item:not(:last-child) {
-  margin-right: var(--card-set-gap);
+  &:not(:first-child) {
+    margin-left: 30px;
+  }
 }
 
 .advantages-title {

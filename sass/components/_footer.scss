@@ -1,24 +1,4 @@
 /* ---------------------footer--------------------- */
-.footer-logo {
-  display: block;
-  margin-bottom: 20px;
-  font-family: Raleway;
-  font-size: 26px;
-  font-weight: 700;
-  line-height: 1.19;
-  color: var(--accent-color);
-}
-
-.logo-accent-footer {
-  color: var(--primary-white-color);
-
-  transition: color var(--animation-duration) var(--timing-function);
-}
-
-.footer-logo:hover .logo-accent-footer,
-.footer-logo:focus .logo-accent-footer {
-  color: var(--accent-color);
-}
 
 .footer {
   padding-top: 60px;
@@ -35,6 +15,11 @@
   color: var(--primary-white-color);
 
   transition: color var(--animation-duration) var(--timing-function);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
 
 .footer-adress:not(:last-child) {
@@ -48,13 +33,11 @@
   color: rgba(255, 255, 255, 0.6);
 
   transition: color var(--animation-duration) var(--timing-function);
-}
 
-.footer-map:hover,
-.footer-map:focus,
-.footer-contact:hover,
-.footer-contact:focus {
-  color: var(--accent-color);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
 
 .footer-container {
@@ -95,14 +78,14 @@
   color: var(--primary-white-color);
   border: 1px solid rgba(255, 255, 255, 0.3);
   background-color: transparent;
-}
 
-.footer-form-input::placeholder {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.25;
+  &::placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
 
-  color: rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255, 0.6);
+  }
 }
 
 .footer-send-icon {

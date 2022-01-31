@@ -1,0 +1,44 @@
+/* --------------------- Header]--------------------- */
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.19;
+  color: var(--accent-color);
+}
+
+.logo-accent {
+  transition: color var(--animation-duration) var(--timing-function);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+
+.logo-accent:hover,
+.logo-accent:focus {
+  color: var(--accent-color);
+}
+
+/* --------------------- Header]--------------------- */
+
+.header-logo {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
+.logo-accent-header {
+  color: var(--title-text-color);
+}
+
+/* ---------------------footer--------------------- */
+
+.footer-logo {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.logo-accent-footer {
+  color: var(--primary-white-color);
+}
