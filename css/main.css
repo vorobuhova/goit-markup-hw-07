@@ -495,7 +495,6 @@ img {
 /* ---------------------  Hero--------------------- */
 .hero {
   padding: 200px 0;
-  background-color: var(--temporary-bg-color);
   width: 1600px;
   margin-left: auto;
   margin-right: auto;
