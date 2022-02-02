@@ -1,5 +1,5 @@
 /* --------------------- advantages---------------------*/
-.advantages-box {
+.advantages__box {
   margin-bottom: var(--card-set-gap);
   width: 270px;
   height: 120px;
@@ -10,16 +10,16 @@
   border-radius: 4px;
 }
 
-.advantages-icons {
+.advantages__icons {
   width: 70px;
   height: 70px;
 }
 
-.advantages-list {
+.advantages__list {
   display: flex;
 }
 
-.advantages-item {
+.advantages__item {
   width: 270px;
 
   &:not(:first-child) {
@@ -27,7 +27,7 @@
   }
 }
 
-.advantages-title {
+.advantages__title {
   margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
@@ -35,7 +35,7 @@
   text-transform: uppercase;
 }
 
-.advantages-text {
+.advantages__text {
   font-size: 14px;
   line-height: 1.71;
   color: var(--primary-text-color);

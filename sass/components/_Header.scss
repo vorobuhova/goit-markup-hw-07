@@ -8,18 +8,18 @@
   align-items: center;
 }
 
-.flex-nav-menu {
+.flex-nav__menu {
   display: flex;
   margin-left: 93px;
 }
 
-.flex-nav-contact {
+.flex-nav__contact {
   display: flex;
   align-items: center;
   margin-left: auto;
 }
 
-.nav-menu-item {
+.nav-menu__item {
   position: relative;
 
   &:not(:first-child) {
@@ -27,11 +27,11 @@
   }
 }
 
-.nav-contact-item:not(:first-child) {
+.nav-contact__item:not(:first-child) {
   margin-left: var(--card-set-gap);
 }
 
-.site-nav-text {
+.site-nav__text {
   padding: 32px 0;
   font-weight: 500;
   font-size: 14px;
@@ -63,12 +63,12 @@
   }
 }
 
-.nav-icons {
+.nav-contact__icons {
   margin-right: 10px;
   fill: currentColor;
 }
 
-.site-contact {
+.nav-contact__text {
   padding: 32px 0;
   font-size: 14px;
   font-weight: 500;

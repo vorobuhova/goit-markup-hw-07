@@ -4,11 +4,11 @@
   background-color: var(--team-bg-color);
 }
 
-.team .title {
+.team__title {
   padding-bottom: 50px;
 }
 
-.team-items {
+.team__items {
   display: flex;
 }
 
@@ -25,13 +25,13 @@
   }
 }
 
-.team-item-text {
+.team-item__text {
   padding: 30px 32px;
   margin-left: auto;
   margin-right: auto;
 }
 
-.team-item-title {
+.team-item__title {
   margin-top: 0;
   margin-bottom: 10px;
   font-weight: 500;
@@ -40,7 +40,7 @@
   text-align: center;
 }
 
-.team-item-role {
+.team-item__role {
   margin-bottom: 16px;
   font-size: 16px;
   line-height: 1.19;

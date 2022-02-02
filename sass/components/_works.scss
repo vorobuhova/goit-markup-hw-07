@@ -1,6 +1,6 @@
 /* --------------------- Examples of our works--------------------- */
 
-.works-title {
+.works__title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -10,20 +10,20 @@
   color: var(--title-text-color);
 }
 
-.works-text {
+.works__text {
   font-size: 16px;
   line-height: 1.87;
   color: var(--primary-text-color);
 }
 
-.works-items {
+.works__items {
   display: flex;
   flex-wrap: wrap;
   margin-right: calc(-1 * var(--card-set-gap));
   margin-bottom: calc(-1 * var(--card-set-gap));
 }
 
-.works-item {
+.works__item {
   margin-right: var(--card-set-gap);
   margin-bottom: var(--card-set-gap);
 
@@ -33,7 +33,7 @@
   background-color: var(--primary-white-color);
 }
 
-.works-img {
+.works__img {
   display: block;
 }
 
@@ -42,11 +42,7 @@
   overflow: hidden;
 }
 
-.works-img {
-  display: block;
-}
-
-.works-backdrop-bg {
+.works-backdrop__bg {
   position: absolute;
 
   transform: translateY(0);
@@ -62,20 +58,20 @@
 
   background-color: rgba(33, 150, 243, 0.9);
 
-  .works-link:hover &,
-  .works-link:focus & {
+  .works__link:hover &,
+  .works__link:focus & {
     transform: translateY(-100%);
   }
 }
 
-.works-backdrop-text {
+.works-backdrop__text {
   width: 322px;
   font-size: 18px;
   line-height: 1.56;
   color: var(--primary-white-color);
 }
 
-.works-link {
+.works__link {
   display: block;
   width: 100%;
   height: 100%;

@@ -16,12 +16,12 @@
 
 /* --------------------- team--------------------- */
 
-.team-social-list {
+.team-social__list {
   display: flex;
   justify-content: space-between;
 }
 
-.team-social-link {
+.team-social__link {
   background-color: transparent;
   color: var(--social-links);
 
@@ -29,7 +29,7 @@
     color var(--animation-duration) var(--timing-function);
 }
 
-.team-icon {
+.team__icon {
   fill: currentColor;
 }
 
@@ -41,13 +41,13 @@
   margin-left: 70px;
 }
 
-.footer-socials-list {
+.footer-socials__list {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.footer-socials-title {
+.footer-socials__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -56,7 +56,7 @@
   text-transform: uppercase;
 }
 
-.footer-socials-link {
+.footer-socials__link {
   background-color: rgba(255, 255, 255, 0.1);
   fill: var(--primary-white-color);
 

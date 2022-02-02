@@ -1,16 +1,16 @@
 /* --------------------- clients--------------------- */
-.clients-title {
+.clients__title {
   margin-top: 0;
   margin-bottom: 50px;
 }
 
-.clients-list {
+.clients__list {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.clients-link {
+.clients__link {
   width: 170px;
   height: 92px;
   display: flex;
@@ -30,7 +30,7 @@
   }
 }
 
-.clients-logo {
+.clients__logo {
   width: 186px;
   height: 60px;
   fill: currentColor;

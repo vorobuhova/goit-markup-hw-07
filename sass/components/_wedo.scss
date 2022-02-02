@@ -3,22 +3,22 @@
   padding-top: 0;
 }
 
-.wedo-list {
+.wedo__list {
   display: flex;
 }
 
-.wedo .title {
+.wedo__title {
   padding-bottom: 50px;
 }
 
-.wedo-item {
+.wedo__item {
   position: relative;
   &:not(:last-child) {
     margin-right: var(--card-set-gap);
   }
 }
 
-.wedo-backdrop {
+.backdrop {
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -31,7 +31,7 @@
   background-color: rgba(47, 48, 58, 0.8);
 }
 
-.wedo-backdrop-text {
+.backdrop__text {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;

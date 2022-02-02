@@ -8,7 +8,7 @@
   color: var(--accent-color);
 }
 
-.logo-accent {
+.logo--accent {
   transition: color var(--animation-duration) var(--timing-function);
   &:hover,
   &:focus {
@@ -16,29 +16,29 @@
   }
 }
 
-.logo-accent:hover,
-.logo-accent:focus {
+.logo--accent:hover,
+.logo--accent:focus {
   color: var(--accent-color);
 }
 
 /* --------------------- Header]--------------------- */
 
-.header-logo {
+.header__logo {
   padding-top: 24px;
   padding-bottom: 25px;
 }
 
-.logo-accent-header {
+.header__logo--accent {
   color: var(--title-text-color);
 }
 
 /* ---------------------footer--------------------- */
 
-.footer-logo {
+.footer__logo {
   display: block;
   margin-bottom: 20px;
 }
 
-.logo-accent-footer {
+.footer__logo--accent {
   color: var(--primary-white-color);
 }
